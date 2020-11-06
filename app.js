@@ -147,7 +147,6 @@ function draw(currentEL) {
     message.innerText = playerX.value + "'s turn, please input 'X'";
     arrayBoard[currentEL.id] = "O";
   }
-
   count++;
 }
 
